@@ -26,30 +26,7 @@
   justify-content: center;
   flex-direction: column;
 }
-/* Botões de Navegação */
-.container-botoes{
-  display: flex;
-  justify-content: space-around;
-}
-.botoes{
-  width: fit-content;
-}
-.botao-topo{
-  background-color: transparent;
-  border: 1px solid white;
-  color: white;
-  border-radius: 5px;
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-  margin: 0px 10px;
-  transition: 0.3s;
-}
-.botao-topo:hover{
-  background-color: #000000;
-}
+
 /* Time de Personagens */
 .character-selected-area {
   display: flex;
@@ -101,6 +78,7 @@
 .profile-desc-title{
   display: flex;
   font-weight: bold;
+  margin-right: 1rem ;
 }
 .profile-structure{
   display: flex;
@@ -112,10 +90,6 @@
   display: flex;
   justify-content:space-between;
   margin: 0.5rem;
-}
-.characters-paginator{
-  color:white;
-  font-weight: bold;
 }
 .character{
   border-radius: 5px;
